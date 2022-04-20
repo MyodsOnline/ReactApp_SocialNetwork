@@ -1,0 +1,27 @@
+main {
+    grid-area: content;
+    margin-right: 50px;
+}
+
+[class^="block-"] {
+background-color: antiquewhite;
+display: grid;
+place-items: center;
+}
+
+.item {
+    color: brown;
+}
+
+.active {
+    text-decoration: line-through;
+}
+
+.coverImage {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    z-index: -1;
+    margin-bottom: -110px;
+    background-image: url(./../assets/img/cover.jpeg);
+}

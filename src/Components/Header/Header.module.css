@@ -1,0 +1,54 @@
+.headerStyle {
+    grid-area: header;
+    background-color: #231F20;
+    display: flex;
+    justify-content: center;
+}
+
+.headerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0;
+    color: aliceblue;
+    width: 1050px;
+}
+
+.headerLogo, .headerContent {
+    display: flex;
+}
+
+.headerContent {
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.headerContent input {
+    margin-right: 15px;
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+    padding: 2px 7px;
+    width: 250px;
+    color: aliceblue;
+}
+
+.headerStyle img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.headerStyle nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: aliceblue;
+}
+
+@media (width:851px) {
+    .headerContent input {
+        display: none;
+    }
+}

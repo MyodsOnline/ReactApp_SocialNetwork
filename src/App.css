@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-template-areas: 
+    "header header"
+    "navigation content"
+    "footer footer";
+  /* gap: 20px; */
+}
