@@ -1,0 +1,5 @@
+.dialogStyle {
+    grid-area: content;
+    margin-right: 50px;
+    background-color: darkgray;
+}

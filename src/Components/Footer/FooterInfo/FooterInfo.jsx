@@ -39,9 +39,9 @@ const FooterInfo = () => {
             <div>
                 <h5>Contacts</h5>
                 <ul className={`${f.footerLinks} ${f.contacts}`}>
-                    <li><i class=""></i>+7 (981) 120-0645</li>
-                    <li><i class="icon ion-ios-email-outline"></i>diver.vlz@gmail.com</li>
-                    <li><i class="icon ion-ios-location-outline"></i>Sankt-Petersburg, RU</li>
+                    <li>+7 (981) 120-0645</li>
+                    <li>diver.vlz@gmail.com</li>
+                    <li>Sankt-Petersburg, RU</li>
                 </ul>
             </div>
         </div>

@@ -12,9 +12,9 @@ const MainContent = () => {
             <div className={m.item}>Item-3</div> */}
             <Cover />
             <NewPost />
-            <Posts />
-            <Posts />
-            <Posts />
+            <Posts likes="3"/>
+            <Posts likes="7"/>
+            <Posts likes="1"/>
         </main>
     );
 }

@@ -2,3 +2,25 @@ nav {
     grid-area: navigation;
     margin-left: 50px;
 }
+
+.navLinks {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navLink {
+    padding: 15px 0;
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+}
+
+.navLink a {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+    font-weight: 700;
+}
+
+.navLink a:hover {
+    text-decoration: underline;
+}

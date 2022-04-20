@@ -67,8 +67,14 @@ img {
 
 .postBodyTitle, .commentBodyTitle{
     display: flex;
+    justify-content: space-between;
     color: cornflowerblue;
     padding: 10px 0 20px;
+}
+
+.postBodyTitle p {
+    color: darkred;
+    font-weight: 700;
 }
 
 .comment_style, .commentBodyText {
