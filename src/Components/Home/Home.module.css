@@ -1,0 +1,5 @@
+.homeStyle {
+    grid-area: content;
+    background-color: yellow;
+    margin-right: 50px;
+}
