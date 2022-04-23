@@ -1,5 +1,79 @@
 .dialogStyle {
     grid-area: content;
     margin-right: 50px;
-    background-color: darkgray;
+    display: flex;
+}
+
+.DialogsListStyle, .ChatStyle {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 25px;
+    max-width: 50%;
+    border-left: 1px solid lightskyblue;
+}
+
+.DialogsListItemStyle {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid lightskyblue;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.DialogsListItemStyle:hover {
+    border-bottom: 1px solid lightslategray;
+    background-color: rgba(44, 135, 219, 0.06);
+}
+
+.DialogData {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 7px;
+    justify-content: space-around;
+}
+
+.DialogDataHeader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.DialogDataHeader h5 {
+    color: #27aae1;
+    font-size: 1em;
+}
+
+.DialogDataText p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.DialogDataHeader span {
+    font-size: .7em;
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 50%;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.ChatStyle {
+    background-color: lightskyblue;
+}
+
+.IncomingStyle {
+    display: flex;
+    align-self: flex-start;
+}
+
+.SendingStyle {
+    display: flex;
+    align-self: flex-end;
 }
