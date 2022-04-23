@@ -1,9 +1,6 @@
 .dialogStyle {
     grid-area: content;
     margin-right: 50px;
-<<<<<<< Updated upstream
-    background-color: darkgray;
-=======
     display: flex;
 }
 
@@ -20,7 +17,6 @@
     display: flex;
     padding: 25px 15px 15px;
     border-right: 1px solid lightskyblue;
-    background-color: rgba(231, 231, 231, 0.5);
 }
 
 .DialogsListItemStyle {
@@ -132,5 +128,4 @@
     border-radius: 0 4px 4px 0;
     font-size: 1em;
     cursor: pointer;
->>>>>>> Stashed changes
 }
