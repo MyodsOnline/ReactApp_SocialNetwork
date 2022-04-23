@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout/>} >
-            <Route index element={<Home text="welcome!" />} />
+            <Route index element={<Home text="Welcome" />} />
             <Route path="posts" element={<MainContent />} />
             <Route path="dialogs" element={<Dialogs />} />
             <Route path="fake" element={<Test />} />

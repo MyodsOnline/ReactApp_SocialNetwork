@@ -2,4 +2,10 @@
     grid-area: content;
     background-color: yellow;
     margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 700;
+    flex-direction: column;
 } 
