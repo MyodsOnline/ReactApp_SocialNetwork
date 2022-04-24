@@ -6,6 +6,7 @@
 
 .App {
   display: grid;
+  min-height: 100vh;
   grid-template-columns: 2fr 6fr;
   grid-template-areas: 
     "header header"
