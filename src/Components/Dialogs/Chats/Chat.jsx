@@ -1,16 +1,13 @@
 import React from "react";
 import ds from "./../Dialogs.module.css";
-import Incoming from "./Incoming";
-import Sending from "./Sending";
+import SendMessage from "./SendMessage";
+import Messages from "./Messages";
 
 const Chat = () => {
     return (
         <div className={ds.ChatStyle}>
-            <Incoming />
-            <Sending />
-            <Sending />
-            <Incoming />
-            <Sending />
+            <Messages />
+            <SendMessage />
         </div>
     )
 }

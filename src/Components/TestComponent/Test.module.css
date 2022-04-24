@@ -1,0 +1,7 @@
+.test_style {
+    grid-area: content;
+    margin-right: 50px;
+    display: flex;
+    background-color:lemonchiffon;
+    padding: 25px;
+}

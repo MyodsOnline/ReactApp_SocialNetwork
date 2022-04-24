@@ -4,6 +4,7 @@ import MainContent from './Components/Main/Main';
 import Dialogs from './Components/Dialogs/Dialogs';
 import Layout from './Components/Layout';
 import Home from './Components/Home/Home';
+import Test from './Components/TestComponent/TestComponent';
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout/>} >
-            <Route index element={<Home text="welcome!" />} />
+            <Route index element={<Home text="Welcome" />} />
             <Route path="posts" element={<MainContent />} />
             <Route path="dialogs" element={<Dialogs />} />
+            <Route path="fake" element={<Test />} />
           </Route>
         </Routes>
       </BrowserRouter>

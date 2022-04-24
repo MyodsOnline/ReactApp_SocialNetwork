@@ -13,6 +13,12 @@
     border-left: 1px solid lightskyblue;
 }
 
+.ChatStyle {
+    display: flex;
+    padding: 25px 15px 15px;
+    border-right: 1px solid lightskyblue;
+}
+
 .DialogsListItemStyle {
     display: flex;
     width: 100%;
@@ -64,16 +70,62 @@
     font-weight: 700;
 }
 
-.ChatStyle {
-    background-color: lightskyblue;
-}
-
-.IncomingStyle {
+.IncomingStyle, .SendingStyle {
     display: flex;
     align-self: flex-start;
+    margin-top: 3px;
+}
+
+.IncomingStyleText {
+    padding: 7px;
+    background-color: bisque;
+    border-radius: 0 7px 7px 7px;
+    font-size: .8em;
+    margin: 0 87px 0 7px;
+}
+
+.SendingStyleText {
+    padding: 7px;
+    background-color: honeydew;
+    border-radius: 7px 0 7px 7px;
+    font-size: .8em;
+    margin: 0 7px 0 87px;
 }
 
 .SendingStyle {
-    display: flex;
     align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.MessagesBox {
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.SendForm {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 4px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.SendForm input {
+    padding: 7px;
+    width: 100%;
+    border: 1px solid rgb(188, 188, 193);
+    border-radius: 4px 0 0 4px;
+}
+
+.SendFormBtn button {
+    border: none;
+    background: rgb(188, 188, 193);
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    border-radius: 0 4px 4px 0;
+    font-size: 1em;
+    cursor: pointer;
 }
