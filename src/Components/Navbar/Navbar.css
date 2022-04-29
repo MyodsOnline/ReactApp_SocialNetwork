@@ -20,6 +20,10 @@ nav {
     font-weight: 700;
 }
 
+.navLink a.active {
+    text-decoration: underline;
+}
+
 .navLink a:hover {
     text-decoration: underline;
 }

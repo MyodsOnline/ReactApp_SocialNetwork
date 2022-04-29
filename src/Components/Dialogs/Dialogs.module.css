@@ -13,6 +13,10 @@
     border-left: 1px solid lightskyblue;
 }
 
+.DialogsListStyle a {
+    text-decoration: none;
+}
+
 .ChatStyle {
     display: flex;
     padding: 25px 15px 15px;
@@ -55,6 +59,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: black;
 }
 
 .DialogDataHeader span {
