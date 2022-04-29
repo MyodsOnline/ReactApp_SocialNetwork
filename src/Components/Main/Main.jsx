@@ -15,16 +15,9 @@ const MainContent = () => {
 
     return (
         <main>
-            {/* <div className="block-1">block-1</div>
-            <div className={m.item}>Item-1</div>
-            <div className={`${m.item} ${m.active}`}>Item-2</div>
-            <div className={m.item}>Item-3</div> */}
             <Cover />
             <NewPost />
             {postDataItem}
-            {/* <Posts likes="3"/>
-            <Posts likes="7"/>
-            <Posts likes="1"/> */}
         </main>
     );
 }

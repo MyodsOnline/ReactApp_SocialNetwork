@@ -4,12 +4,19 @@ import userImage from '../../assets/img/user-1.jpeg';
 import PostComment from './PostComment';
 
 const Posts = (props) => {
-    const [like, setLike] = useState(Number(props.likes))
-
-    console.log(props);
+    const [like, setLike] = useState(Number(props.likes));
 
     function increment () {
-        setLike(like + 1)
+        let cnt;
+        console.log(cnt);
+        if (cnt === 0) {
+                setLike(like + 1);
+                cnt = 1;
+        } else {
+                setLike(like - 1);
+                cnt = 0;
+        }
+        console.log(cnt);
     }
 
     return (
